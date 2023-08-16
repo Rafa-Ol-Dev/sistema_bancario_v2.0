@@ -10,7 +10,7 @@ Este projeto é parte do bootcamp da DIO **Potência Tech powered by iFood | Ci�
 
 ---
 ## Desafio
-- Deixar o código mais modularizadoutilizando funções para as operações já existentes: sacar, depositar e visualizar histórico;
+- Deixar o código mais modularizado utilizando funções para as operações já existentes: sacar, depositar e visualizar histórico;
 - Além disso, para a versão 2 do sistema, criei duas novas funções: *Novo Cliente* e *Nova Conta* (esta última vinculada com o cliente).
 
 ## Separação em funções
