@@ -44,7 +44,7 @@ def sacar(*, valor, saldo, extrato, limite, numero_saque, limite_saque):
 	else:
 		print("\nERRO! Saque não realizado. Valor inválido.")
 	
-	return saldo, extrato
+	return saldo, extrato, numero_saque
 
 def extrato_da_conta(saldo, /, *, extrato):
 	print("\n==========EXTRATO==========")
@@ -113,7 +113,7 @@ def sistema_bancario():
 			
 		elif opcao == "2":
 			valor = float(input("Qual o valor do saque? R$"))
-			saldo, extrato = sacar(valor=valor, saldo=saldo, extrato=extrato, limite=LIMITE, numero_saque=numero_saque, limite_saque=limite_saque)
+			saldo, extrato, numero_saque = sacar(valor=valor, saldo=saldo, extrato=extrato, limite=LIMITE, numero_saque=numero_saque, limite_saque=limite_saque)
 			
 		elif opcao == "3":
 			extrato_da_conta(saldo, extrato=extrato)
